@@ -44,7 +44,7 @@ const images = [
 export default function Itinerary() {
   return (
     <div className="bg-black  ">
-      <div className="flex justify-center text-4xl font-semibold mb-6">
+      <div className="flex justify-center text-xl mx-6 lg:mx-0 text-center  lg:text-4xl font-semibold mb-6">
         Explore Our Curated Travel Itineraries
       </div>
       <div className="flex flex-row overflow-x-scroll [&::-webkit-scrollbar]:hidden transition-all mt-12">

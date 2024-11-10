@@ -37,7 +37,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 flex justify-end">
+      <div className="w-full lg:w-1/2 flex justify-end lg:pt-0 pt-4">
         <Image
           src="/assets/header.png"
           width={582}
