@@ -9,7 +9,7 @@ export function StartedGuide() {
     //       className=" h-[480px] w-full mb-8 gap-8 p-0 items-center justify-center flex flex-col  overflow-y-scroll  scroll-snap-y-mandatory  [&::-webkit-scrollbar]:hidden "
     //     >
     //       <li
-    //         className="h-[377px] w-[840px] card sticky top-0 z-0 pt-24 scroll-snap-start"
+    //         className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] card sticky top-0 z-0 pt-24 scroll-snap-start"
     //         id="card1"
     //       >
     //         <div className="card-body h-[87vh] rounded-lg bg-[#A94949] p-6 text-white shadow-lg">
@@ -18,7 +18,7 @@ export function StartedGuide() {
     //       </li>
 
     //       <li
-    //         className="h-[377px] w-[840px] card  sticky top-0 z-10 pt-24 scroll-snap-start"
+    //         className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] card  sticky top-0 z-10 pt-24 scroll-snap-start"
     //         id="card2"
     //       >
     //         <div className="card-body h-[87vh] rounded-lg bg-[#A94949] p-6 text-white shadow-lg">
@@ -26,7 +26,7 @@ export function StartedGuide() {
     //         </div>
     //       </li>
     //       <li
-    //         className="h-[377px] w-[840px] card sticky top-0 z-20 pt-24 scroll-snap-start"
+    //         className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] card sticky top-0 z-20 pt-24 scroll-snap-start"
     //         id="card3"
     //       >
     //         <div className="card-body h-[87vh] rounded-lg bg-[#5ED46A] p-6 text-white shadow-lg">
@@ -34,7 +34,7 @@ export function StartedGuide() {
     //         </div>
     //       </li>
     //       <li
-    //         className=" h-[377px] w-[840px] card sticky top-0 z-30 pt-24 scroll-snap-start"
+    //         className=" lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] card sticky top-0 z-30 pt-24 scroll-snap-start"
     //         id="card4"
     //       >
     //         <div className="card-body h-[87vh] rounded-lg bg-[#487FD7] p-6 text-white shadow-lg">
@@ -42,7 +42,7 @@ export function StartedGuide() {
     //         </div>
     //       </li>
     //       <li
-    //         className=" h-[377px] w-[840px] card sticky top-0 z-40 pt-24 scroll-snap-start"
+    //         className=" lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] card sticky top-0 z-40 pt-24 scroll-snap-start"
     //         id="card5"
     //       >
     //         <div className="card-body h-[87vh] rounded-lg bg-[#5CAAB6] p-6 text-white shadow-lg">
@@ -55,7 +55,7 @@ export function StartedGuide() {
     <div className="flex items-center justify-center">
       <div className="my-auto h-[480px] overflow-y-auto [&::-webkit-scrollbar]:hidden rounded-2xl ">
         <div className="flex flex-col space-y-4">
-          <div className="h-[377px] w-[840px] bg-[#A94949] m-2 rounded-2xl p-8 flex justify-center">
+          <div className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] bg-[#A94949] m-2 rounded-2xl p-8 flex justify-center">
             <div className="w-1/2 flex flex-col items-center justify-center ">
               <div className="font-bold text-h3 leading-tight">
                 Sign Up and create your own store hassle-free.
@@ -101,7 +101,7 @@ export function StartedGuide() {
               height={305}
             ></img>
           </div>
-          <div className="h-[377px] w-[840px] bg-[#5ED46A] m-2 rounded-2xl p-8 flex justify-center rotate-2">
+          <div className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] bg-[#5ED46A] m-2 rounded-2xl p-8 flex justify-center rotate-2">
             <div className="w-1/2 flex flex-col items-center justify-center ">
               <div className="font-bold text-h3 leading-tight">
                 "Monetize your influencer status: Earn money adding real value
@@ -148,7 +148,7 @@ export function StartedGuide() {
               ></img>
             </div>
           </div>
-          <div className="h-[377px] w-[840px] bg-[#487FD7] m-2 rounded-2xl p-8 flex justify-center -rotate-2">
+          <div className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] bg-[#487FD7] m-2 rounded-2xl p-8 flex justify-center -rotate-2">
             <div className="w-1/2 flex flex-col items-center justify-center ">
               <div className="font-bold text-h3 leading-tight">
                 Call audience to your store. Easily integrate links into
@@ -168,7 +168,7 @@ export function StartedGuide() {
               ></img>
             </div>
           </div>
-          <div className="h-[377px] w-[840px] bg-[#5CAAB6] m-2 rounded-2xl p-8 flex justify-center rotate-1">
+          <div className="lg:h-[377px] lg:w-[840px] h-[325px] w-[378px] bg-[#5CAAB6] m-2 rounded-2xl p-8 flex justify-center rotate-1">
             <div className="w-1/2 flex flex-col items-center justify-center ">
               <div className="font-bold text-h3 leading-tight">
                 Build & customize your store front.

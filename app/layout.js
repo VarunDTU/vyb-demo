@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="[&::-webkit-scrollbar]:hidden">
       <body className={`${geistSans.variable} ${geistMono.variable}  `}>
-        <div className="p-5 font-urbanist  py-[36px] px-[120px] ">
+        <div className=" font-urbanist  md:py-[36px] md:px-[120px] p-5 ">
           <Navbar></Navbar>
           {children}
         </div>

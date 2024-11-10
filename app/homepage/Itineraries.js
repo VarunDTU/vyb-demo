@@ -75,13 +75,6 @@ export default function Itinerary() {
           })}
         </div>
       </div>
-      <div className=" bg-[url('/assets/mountain_up.png') bg-transparent h-[547px]">
-        {/* <img
-          src="/assets/mountain_up.png"
-          alt="mountain"
-          className="h-[547px] w-full object-cover"
-        /> */}
-      </div>
     </div>
   );
 }

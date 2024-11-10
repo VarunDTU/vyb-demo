@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Influencers() {
   return (
-    <div className="pt-9 w-full flex flex-row items-center">
-      <div className="w-1/2 mr-4 text-primary text-4xl h-full font-bold text-center">
+    <div className="pt-9 w-full flex lg:flex-row flex-col items-center">
+      <div className="w-1/2 mr-4 text-primary text-4xl h-full font-bold text-center mb-5">
         From Creation to Monetization: Vyb Store Has It All
       </div>
       <div className=" flex flex-col font-semibold ">

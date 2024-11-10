@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function Header() {
   return (
-    <div className="w-full pt-[36px] flex flex-row font-bold text-black ">
-      <div className="w-1/2">
-        <div className="w-full text-[64px]">
+    <div className="w-full pt-[36px] flex flex-col lg:flex-row justify-center items-center font-bold text-black ">
+      <div className="w-full lg:w-1/2 ">
+        <div className="w-full text-[40px] lg:text-[64px]">
           <div className="flex flex-row">
             <div className="px-2.5 bg-white rounded-lg mr-2.5">One</div>
             <div className="px-2.5 bg-white rounded-lg mr-2.5">Stop</div>
@@ -18,7 +18,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="text-h1 text-white mt-10 leading-tight">
+        <div className="lg:text-h1 text-lg text-white mt-10 leading-tight">
           "Unleash Your Influence: Sell Itineraries, Build Your Brand, Create
           Merch, and Share Content – All in One Hub."
         </div>
@@ -37,7 +37,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2 flex justify-end">
         <Image
           src="/assets/header.png"
           width={582}
