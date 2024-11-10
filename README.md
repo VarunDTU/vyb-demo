@@ -1,1 +1,1 @@
-check it out [here](https://vyb-demo.vercel.app/)
+Vercel deployement [here](https://vyb-demo.vercel.app/)
