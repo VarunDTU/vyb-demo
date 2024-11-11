@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const influencers = [
   {
     name: "Samira",
-    image: "/assets/influencers/samira.png",
+    image: "/assets/influencers/Samira.png",
   },
   {
     name: "Mindi",
@@ -12,7 +12,7 @@ const influencers = [
   },
   {
     name: "Samira",
-    image: "/assets/influencers/Samira2.png",
+    image: "/assets/influencers/samira2.png",
   },
   {
     name: "Mindi",
@@ -20,7 +20,7 @@ const influencers = [
   },
   {
     name: "Samira",
-    image: "/assets/influencers/Samira2.png",
+    image: "/assets/influencers/samira2.png",
   },
 ];
 export default function Influencers() {
