@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className=" rounded-lg font-bold  h-full text-h3 text-white flex flex-row justify-between items-center">
       <div className="flex flex-row items-center">
         <Image src="/assets/vyb.png" width={105} height={63} alt="logo"></Image>
-        <div className="rounded-full w-[290px] h-[50px] bg-white ml-8">
+        <div className="rounded-full ld:w-[290px] w-[200px] ld:h-[50px] bg-white ml-8">
           <div className="flex px-4 py-3 rounded-lg overflow-hidden max-w-lg mx-auto font-semibold items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

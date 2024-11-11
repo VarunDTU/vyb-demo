@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 import { z } from "zod";
 
 const User = z.object({
@@ -14,17 +13,19 @@ export default function Page() {
     email: "",
     password: "",
   });
+  const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const handleSubmit = () => {
-    console.log("hello");
+    setError("");
     if (loading) return;
     setLoading(true);
     const result = User.safeParse(credientials);
     if (!result.success) {
       const error = JSON.parse(JSON.stringify(result.error.errors));
       console.log(error[0]);
-      const notify = () => toast(error[0].message);
-      notify();
+
+      setError(error[0].message);
+
       setLoading(false);
       return;
     } else {
@@ -33,12 +34,18 @@ export default function Page() {
     }
   };
   return (
-    <div className="flex lg:flex-row flex-col justify-evenly items-center">
+    <div className="flex lg:flex-row flex-col ld:justify-evenly items-center justify-center">
       <div className="w-full lg:w-1/2 ">
         <img src="/assets/image.png"></img>
       </div>
       <div>
-        <ToastContainer />
+        <div
+          className={`${
+            error === "" ? "hidden" : "block"
+          } w-full bg-white text-black font-bold rounded-lg p-2 m-2 text-centers transition-all`}
+        >
+          {error}
+        </div>
         <div className="bg-[#181818] rounded-2xl w-[212px] ml-6 flex flex-col items-center justify-center font-semibold text-sm">
           <div className="flex flex-row justify-center items-center rounded-lg border border-white p-2">
             <FcGoogle className="mr-2"></FcGoogle>Login with google
